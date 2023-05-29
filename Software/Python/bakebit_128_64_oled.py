@@ -453,3 +453,9 @@ def setNormalDisplay():
 
 def setInverseDisplay():
     sendCommand(SeeedOLED_Inverse_Display_Cmd)
+
+def clear_raw():
+    for j in range(8):
+        setTextXY(0,j)    
+        for i in range(16):  #clear all columns
+            putChar(' ')
