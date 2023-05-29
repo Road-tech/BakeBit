@@ -276,6 +276,7 @@ signal.signal(signal.SIGALRM, receive_signal)
 
 while True:
     try:
+        oled.clear_raw()
         draw_page()
 
         lock.acquire()
