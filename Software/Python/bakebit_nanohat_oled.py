@@ -55,7 +55,7 @@ height=64
 global pageCount
 pageCount=2
 global pageIndex
-pageIndex=0
+pageIndex=1
 global showPageIndicator
 showPageIndicator=False
 
