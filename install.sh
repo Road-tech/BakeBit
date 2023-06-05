@@ -58,8 +58,8 @@ sudo apt-get update --yes
 echo ""
 echo "Installing Dependencies"
 echo "======================="
-sudo apt-get install i2c-tools libi2c-dev minicom git -y
-sudo apt-get install python3 python3-dev python3-smbus python3-serial python3-rpi.gpio python3-psutil python3-pil -y
+## sudo apt-get install i2c-tools libi2c-dev minicom git -y
+## sudo apt-get install python3 python3-dev python3-smbus python3-serial python3-rpi.gpio python3-psutil python3-pil -y
 #sudo apt-get install python3 python3-dev python3-pip python3-serial python3-psutil python3-pil -y
 #yes | sudo pip3 install smbus
 #yes | sudo pip3 install RPi.GPIO
